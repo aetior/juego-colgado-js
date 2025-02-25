@@ -1,0 +1,22 @@
+figure{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+}
+input{
+    width: 5rem;
+    text-align: center;
+}
