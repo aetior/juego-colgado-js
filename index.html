@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
->
-<link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <figure>
-        <img src="https://i0.wp.com/analisisparalisis.es/wp-content/uploads/2017/05/ahorcado.gif?fit=289%2C322&ssl=1" alt="">
+  <header>
+    <figure class="numVidas">
+      <p id="numVidas">3</p>
+      <img src="./img/corazonS.png" alt="" id="corazon">
     </figure>
-    <main>
-    <div class="box container">ikno</div>
-    <div class="container"></div><br>
+  </header>
+  <figure>
+    <img src="" alt="" id="img">
+  </figure>
+  <main>
+    <div class="box container" id="container"></div>
+    <!-- <div class="container"></div><br> -->
     <button id="empezar" class="button">STAR</button>
+
     <div id="hidden"></div>
 
-    <input
-    class="input is-primary"
-    type="text"
-    placeholder="Tu letra"
-    id="letra" maxlength="1" pattern="[A-Za-zÀ-ÿ\s]+"
+    <input class="input is-primary" type="text" placeholder="Tu letra" id="letra" maxlength="1"
+      pattern="[A-Za-zÀ-ÿ\s]+" />
 
-    
-  />
-    <button class="button is-dark" value="enviar" id="enviar" >Provar</button>
-    </main>
-    <script src="script.js"></script>
+    <button class="button is-dark" value="enviar" id="enviar">Provar</button>
+  </main>
+  <script src="script.js"></script>
 </body>
+
 </html>

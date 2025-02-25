@@ -20,3 +20,16 @@ input{
     width: 5rem;
     text-align: center;
 }
+header{
+    display: flex;
+   
+}
+.numVidas{
+  
+    gap: 3rem;
+    font-size: 6rem;
+}
+#numVidas{
+    align-self: center;
+    margin-left: 2rem;
+}
